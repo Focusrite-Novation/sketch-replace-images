@@ -51,7 +51,7 @@ export default function(context) {
 
     if(imageTypes.containsObject(pathExtension))
     {
-      images_available.setObject_forKey(filename, basefileName);
+      images_available.setObject_forKey(filename, filename);
     }
   }
 
